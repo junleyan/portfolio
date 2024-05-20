@@ -1,7 +1,6 @@
-import React from 'react';
 import { Box, Grid, Typography } from '@mui/material';
-import LeftHome from './LeftHome';
 import "../stylesheets/Home.css";
+import LeftHome from './LeftHome';
 
 const Home = () => {
     return (

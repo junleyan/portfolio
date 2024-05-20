@@ -1,13 +1,13 @@
 import { Box, Grid } from '@mui/material';
 import { TypewriterTypography } from '../utils/utils';
 import "../stylesheets/LeftHome.css";
-import Avatar from '../assets/images/avatar.jpg';
-import LocationPinIcon from '../assets/icons/location-pin.svg';
-import EnvelopeIcon from '../assets/icons/envelope.svg';
-import BankIcon from '../assets/icons/bank.svg';
-import TagIcon from '../assets/icons/tag.svg';
-import PhoneIcon from '../assets/icons/phone.svg'
 import AboutMeLine from './AboutMeLine';
+import TagIcon from '../assets/icons/tag.svg';
+import BankIcon from '../assets/icons/bank.svg';
+import Avatar from '../assets/images/avatar.jpg';
+import PhoneIcon from '../assets/icons/phone.svg';
+import EnvelopeIcon from '../assets/icons/envelope.svg';
+import LocationPinIcon from '../assets/icons/location-pin.svg';
 
 const LeftHome = () => {
     return (
