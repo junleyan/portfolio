@@ -1,6 +1,6 @@
-import { Box, Grid, Typography } from '@mui/material';
-import "../stylesheets/Home.css";
+import { Grid } from '@mui/material';
 import LeftHome from './LeftHome';
+import RightHome from './RightHome';
 
 const Home = () => {
     return (
@@ -9,9 +9,7 @@ const Home = () => {
                 <LeftHome />
             </Grid>
             <Grid item xs={8}>
-                <Box className="right-home">
-                    <Typography variant="body">Right Side</Typography>
-                </Box>
+                <RightHome />
             </Grid>
         </Grid>
     );
