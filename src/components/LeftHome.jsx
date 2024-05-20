@@ -19,10 +19,10 @@ const LeftHome = () => {
                 spacing={3}
             >
                 <Grid item>
-                    <img alt="avatar" src={Avatar} width="100" height="100" />
+                    <img alt="avatar" src={Avatar} width="300" height="300" />
                 </Grid>
                 <Grid item>
-                    <TypewriterTypography text="Hi, I'm Junle Yan" speed={75} />
+                    <TypewriterTypography text="Hi, I'm Junle Yan" speed={75} size='x-large' />
                 </Grid>
                 <Grid item>
                     <AboutMeLine icon={TagIcon} info={'Computer Science Undergraduate'}/>

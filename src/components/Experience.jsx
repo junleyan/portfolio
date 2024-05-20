@@ -7,19 +7,23 @@ const Experience = (props) => {
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
-                spacing={1}
+                spacing={1.5}
             >
-                <Grid item xs={5}>
-                    <Typography sx={{ fontWeight: "bold" }}>University of Hawai'i</Typography>
+                <Grid item xs>
+                    <Grid container direction="row" spacing={4} alignItems="center">
+                        <Grid item>
+                            <Typography fontSize='x-large' sx={{ fontWeight: "bold" }}>University of Hawai'i</Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography fontSize='regular'>Frontend Developer</Typography>
+                        </Grid>
+                    </Grid>
                 </Grid>
-                <Grid item xs={4}>
-                    <Typography fontSize='x-small'>Frontend Developer</Typography>
-                </Grid>
-                <Grid item xs={3}>
-                    <Typography fontSize='xx-small'>Oct 2023 - Present</Typography>
+                <Grid item xs={2.5}>
+                    <Typography fontSize='small'>Oct 2023 - Present</Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <Typography fontSize='x-small'>
+                    <Typography fontSize='large'>
                         Maintained and contributed to the development of STAR GPS
                         , an easy-to-navigate registration system for undergraduate 
                         and graduate courses at the University of Hawai'i, utilized 
@@ -28,10 +32,10 @@ const Experience = (props) => {
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container alignItems="center" spacing={1}>
-                        <Grid item><Typography fontSize='small'>Skills:</Typography></Grid>
-                        <Grid item><Chip label='React.js' size='small' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
-                        <Grid item><Chip label='Material UI' size='small' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
-                        <Grid item><Chip label='Java' size='small' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
+                        <Grid item><Typography>Skills:</Typography></Grid>
+                        <Grid item><Chip label='React.js' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
+                        <Grid item><Chip label='Material UI' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
+                        <Grid item><Chip label='Java' variant="outlined" sx={{ borderRadius: 0, color: 'white' }} /></Grid>
                     </Grid>
                 </Grid>
             </Grid>

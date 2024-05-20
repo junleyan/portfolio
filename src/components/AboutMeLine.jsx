@@ -11,10 +11,10 @@ const AboutMeLine = (props) => {
                 spacing={1}
             >
                 <Grid item display='flex'>
-                    <img src={props.icon} alt="icon" width="10" height="10" />
+                    <img src={props.icon} alt="icon" width="15" height="15" />
                 </Grid>
                 <Grid item display='flex'>
-                    <Typography fontSize='x-small'>{props.info}</Typography>
+                    <Typography fontSize='large'>{props.info}</Typography>
                 </Grid>
             </Grid>
         </Box>
