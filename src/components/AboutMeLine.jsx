@@ -14,7 +14,7 @@ const AboutMeLine = (props) => {
                     <img src={props.icon} alt="icon" width="10" height="10" />
                 </Grid>
                 <Grid item display='flex'>
-                    <Typography variant="body" fontSize='x-small'>{props.info}</Typography>
+                    <Typography fontSize='x-small'>{props.info}</Typography>
                 </Grid>
             </Grid>
         </Box>

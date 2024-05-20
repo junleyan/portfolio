@@ -1,11 +1,20 @@
+import { ThemeProvider, createTheme } from '@mui/material';
 import './App.css';
 import Home from './components/Home';
 
+const THEME = createTheme({
+    typography: {
+     "fontFamily": `'ZPix', sans-serif`
+    }
+});
+
 function App() {
     return (
-        <div className="App">
-            <Home/>
-        </div>
+        <ThemeProvider theme={THEME}>
+            <div className="App">
+                <Home/>
+            </div>
+        </ThemeProvider>
     );
 }
 
