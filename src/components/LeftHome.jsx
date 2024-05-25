@@ -33,7 +33,7 @@ const LeftHome = () => {
                 </Grid>
             </Grid>
         </Box>
-    )
+    );
 }
 
 export default LeftHome;

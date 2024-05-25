@@ -18,7 +18,7 @@ const AboutMeLine = (props) => {
                 </Grid>
             </Grid>
         </Box>
-    )
+    );
 }
 
 export default AboutMeLine;
