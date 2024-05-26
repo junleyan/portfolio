@@ -1,4 +1,4 @@
-import { Box, Divider, Grid } from '@mui/material';
+import { Box, Divider, Grid, Typography } from '@mui/material';
 import "../stylesheets/RightHome.css";
 import Experience from './Experience';
 
@@ -20,6 +20,9 @@ const RightHome = () => {
                 ml={7}
                 mr={10}
             >
+                <Grid item>
+                    <Typography fontSize='xxx-large' sx={{ fontWeight: "bold" }}>Experiences</Typography>
+                </Grid>
                 <Grid item><ExperienceDivider/></Grid>
                 <Grid item>
                     <Experience
