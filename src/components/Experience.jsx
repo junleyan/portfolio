@@ -22,9 +22,11 @@ const Experience = (props) => {
                 <Grid item xs={2.5}>
                     <Typography fontSize='small'>{props.duration}</Typography>
                 </Grid>
-                <Grid item xs={12}>
-                    <Typography fontSize='large'>{props.description}</Typography>
-                </Grid>
+                {props.description && (
+                    <Grid item xs={12}>
+                        <Typography fontSize="large">{props.description}</Typography>
+                    </Grid>
+                )}
                 {props.accomplishments?.map((accomplishment) => (
                     <Grid item xs={12}>
                         <Typography fontSize='regular'>&gt;&gt; {accomplishment}</Typography>

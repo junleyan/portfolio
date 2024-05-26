@@ -54,6 +54,19 @@ const RightHome = () => {
                         skills={["MS Visio"]} />
                 </Grid>
                 <Grid item><ExperienceDivider/></Grid>
+                <Grid item>
+                    <Experience
+                        company="Bishop Museum"
+                        title="STEAM Museum Student Intern"
+                        duration="Jun 2020 - Dec 2020"
+                        accomplishments={[
+                            "Conducted research on the geographical correlation between native Hawaiian land snail species and plants through the investigation of Hawaiian archives.",
+                            "Leveraged GIS software to create maps illustrating the geographical correlation between native Hawaiian land snail species and plants.",
+                            "Designed and implemented educational activities aimed to foster interest in natural sciences among museum visitors."
+                        ]}
+                        skills={["QGIS", "MS Excel"]} />
+                </Grid>
+                <Grid item><ExperienceDivider/></Grid>
             </Grid>
         </Box>
     );
