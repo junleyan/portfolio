@@ -4,7 +4,7 @@ import Experience from './Experience';
 
 const ExperienceDivider = () => {
     return (
-        <Divider sx={{ bgcolor: "white" }} />
+        <Divider className="divider" />
     );
 };
 
@@ -33,7 +33,6 @@ const RightHome = () => {
                         skills={["React.js", "Material UI", "AngularJS", "Java"]} />
                 </Grid>
                 <Grid item><ExperienceDivider/></Grid>
-                
             </Grid>
         </Box>
     );
