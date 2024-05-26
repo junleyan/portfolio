@@ -25,6 +25,11 @@ const Experience = (props) => {
                 <Grid item xs={12}>
                     <Typography fontSize='large'>{props.description}</Typography>
                 </Grid>
+                {props.accomplishments?.map((accomplishment) => (
+                    <Grid item xs={12}>
+                        <Typography fontSize='regular'>&gt;&gt; {accomplishment}</Typography>
+                    </Grid>
+                ))}
                 <Grid item xs={12}>
                     <Grid container alignItems="center" spacing={1}>
                         <Grid item>

@@ -24,13 +24,34 @@ const RightHome = () => {
                 <Grid item>
                     <Experience
                         company="University of Hawai'i"
-                        title="Frontend Developer"
+                        title="Assistant Frontend Developer"
                         duration="Oct 2023 - Present"
                         description="Maintained and contributed to the development of STAR GPS
                                     , an easy-to-navigate registration system for undergraduate
                                     and graduate courses at the University of Hawai'i, utilized
                                     by over 18,000 students to facilitate timely graduation."
+                        accomplishments={[
+                            "Improved UI/UX, resulting in a significant decrease in user help center inquiries.",
+                            "Conducted security vulnerability assessments on SQL procedures and API endpoints.",
+                            "Performed software maintenances across the codebase."
+                        ]}
                         skills={["React.js", "Material UI", "AngularJS", "Java"]} />
+                </Grid>
+                <Grid item><ExperienceDivider/></Grid>
+                <Grid item>
+                    <Experience
+                        company="University of Hawai'i"
+                        title="Data Center Technician"
+                        duration="Sep 2023 - Oct 2023"
+                        description="Provided support for daily operations at the University of 
+                                    Hawai'i Information Technology Center, a facility that hosts 
+                                    all of the University's enterprise information and 
+                                    communication technology systems."
+                        accomplishments={[
+                            "Patched fiber optic connection to establish connections between server aisles.",
+                            "Created diagrams using Microsoft Visio to document network connections."
+                        ]}
+                        skills={["MS Visio"]} />
                 </Grid>
                 <Grid item><ExperienceDivider/></Grid>
             </Grid>
