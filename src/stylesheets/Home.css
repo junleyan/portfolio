@@ -1,0 +1,9 @@
+.home-container {
+    height: 100vh;
+}
+
+.right-container {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #0C0C0C;
+}

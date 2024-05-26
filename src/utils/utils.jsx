@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Typography } from '@mui/material';
 
-export const TypewriterTypography = ({ text, speed }) => {
+export const TypewriterTypography = ({ text, speed, size }) => {
     const [displayedText, setDisplayedText] = useState('');
 
     useEffect(() => {
@@ -17,6 +17,6 @@ export const TypewriterTypography = ({ text, speed }) => {
     }, [text, speed]);
 
     return (
-        <Typography variant="body">{displayedText}</Typography>
+        <Typography variant="body" fontSize={size}>{displayedText}</Typography>
     );
 };
