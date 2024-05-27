@@ -10,7 +10,7 @@ const Experience = (props) => {
                 spacing={1.5}
             >
                 <Grid item xs>
-                    <Grid container direction="row" spacing={4} alignItems="center">
+                    <Grid container direction="row" columnSpacing={3} alignItems="center">
                         <Grid item>
                             <Typography fontSize='x-large' sx={{ fontWeight: "bold" }}>{props.company}</Typography>
                         </Grid>
@@ -20,7 +20,9 @@ const Experience = (props) => {
                     </Grid>
                 </Grid>
                 <Grid item xs={2.5}>
-                    <Typography fontSize='small'>{props.duration}</Typography>
+                    <Grid container justifyContent="flex-end">
+                        <Typography fontSize='small'>{props.duration}</Typography>
+                    </Grid>
                 </Grid>
                 {props.description && (
                     <Grid item xs={12}>
