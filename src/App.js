@@ -4,7 +4,7 @@ import Home from './components/Home';
 
 const THEME = createTheme({
     typography: {
-     "fontFamily": `'ZPix', sans-serif`
+        "fontFamily": `'ZPix', sans-serif`
     }
 });
 
