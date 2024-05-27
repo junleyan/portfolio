@@ -7,9 +7,11 @@ const RightHome = () => {
         <Box className="right-home">
             <Grid container
                 direction="column"
-                spacing={1}
+                spacing={5}
             >
-                <ExperienceSection />
+                <Grid item>
+                    <ExperienceSection />
+                </Grid>
             </Grid>
         </Box>
     );
